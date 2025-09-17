@@ -54,21 +54,22 @@ body {
 
 /* Banner */
 .banner {
-    background-image: url('assets/Cristo.jpeg');
+    background-image: url('Cristo.jpeg');
     background-size: cover;
     background-position: down;
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .banner input {
-    width: 300px;
+    width: 400px;
     padding: 10px;
-    border-radius: 20px;
-    border: none;
-    text-align: center;
+    border-radius: 30px;
+    border-top-left-radius: black;
+    text-align: left;
+    font-size: 20px;
 }
 
 /* Sessão de destaques */
@@ -96,6 +97,7 @@ body {
     border-radius: 20px;
     object-fit: cover;
     margin-right: 20px;
+    justify-content: center;
 }
 
 /* Rodapé */
